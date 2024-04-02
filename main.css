@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    padding: 28px 0;
+    background-color: maroon;
+    color: white
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    
+}
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin:0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-marcas img{
+    height: 18px;
+}
+
+.lista-marcas li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    
+}
+section h2 {
+    margin-bottom: 16px;
+    
+}
+
+section {
+    color: maroon
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.fachada {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+    
+}
+
+.social-links li a {
+    text-decoration: none;
+    display: inline;
+    margin-right: 8px;
+
+}
+
+#contato .container {
+    display: block;
+}
+
+.contatos-metodos {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(11, 118, 240, 0.2);
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+form button:hover {
+    background-color: rgb(11, 211, 28);
+}
+
+input:focus, textarea:focus {
+    outline-color: maroon;
+}
+
+footer {
+    background-color: maroon;
+    color: white;
+    padding: 16px 0;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+iframe {
+    padding: 8px 0;
+    margin-right: 8px;
+}
